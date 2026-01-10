@@ -1,53 +1,16 @@
-# 🎬 AnimeList by Erlixx
+# React + Vite
 
-**AnimeList** adalah aplikasi web modern untuk menjelajahi dan menemukan anime populer. Aplikasi ini dibangun menggunakan **React** dan **Tailwind CSS**, serta mengambil data secara real-time dari **AniList API** (GraphQL).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔗 **Demo:** [MASUKKAN LINK VERCEL KAMU DISINI]
+Currently, two official plugins are available:
 
-## ✨ Fitur Utama
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-* **🔥 Data Real-time:** Mengambil data anime terbaru, terpopuler, dan sedang tayang langsung dari server AniList.
-* **🎨 Modern UI:** Tampilan antarmuka yang bersih dan responsif menggunakan Tailwind CSS.
-* **⚡ Cepat & Ringan:** Dibangun dengan React untuk pengalaman pengguna yang mulus (SPA).
-* **📝 Add to List (WIP):** Fitur simulasi untuk menambahkan anime ke koleksi pribadi (Saat ini data disimpan secara lokal/non-persisten).
+## React Compiler
 
-## 🛠️ Teknologi yang Digunakan
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Project ini dibangun dengan *stack* modern:
+## Expanding the ESLint configuration
 
-* **Frontend Framework:** [React.js](https://reactjs.org/)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Data Source:** [AniList GraphQL API](https://anilist.co/home)
-* **Deployment:** Vercel
-
-## 💻 Cara Menjalankan (Local Development)
-
-Ikuti langkah ini jika ingin menjalankan project di komputer kamu:
-
-1.  **Clone repository:**
-    ```bash
-    git clone [https://github.com/username-kamu/nama-repo.git](https://github.com/username-kamu/nama-repo.git)
-    cd nama-repo
-    ```
-
-2.  **Install Dependencies:**
-    Pastikan Node.js sudah terinstall, lalu jalankan:
-    ```bash
-    npm install
-    # atau
-    yarn install
-    ```
-
-3.  **Jalankan Server:**
-    ```bash
-    npm run dev
-    # atau
-    yarn dev
-    ```
-
-4.  **Buka Browser:**
-    Buka alamat `http://localhost:5173` (atau port yang muncul di terminal).
-
-
----
-Developed by **Erlixx**
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
