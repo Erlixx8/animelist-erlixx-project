@@ -48,10 +48,6 @@ Ikuti langkah ini jika ingin menjalankan project di komputer kamu:
 4.  **Buka Browser:**
     Buka alamat `http://localhost:5173` (atau port yang muncul di terminal).
 
-## 📝 Catatan
-
-Project ini dibuat untuk tujuan pembelajaran dan portofolio.
-* Fitur **"Add to List"** saat ini masih dalam tahap pengembangan (WIP) dan belum terhubung ke database user.
 
 ---
 Developed by **Erlixx**
